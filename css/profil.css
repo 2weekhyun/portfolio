@@ -1,0 +1,110 @@
+@media (min-width: 913px){
+
+  .probackimg img{
+    position: relative;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+  }
+
+  body {overflow: hidden;}
+
+  .Ftxt {
+    position: relative;
+    bottom: 1095px;
+    left: 39%;
+  }
+  
+  .Ftxt h1 {
+    position: relative;
+    font-size: 60px;
+    color: #CEB7FF;
+    bottom: 40px;
+    text-shadow: -1px -1px 0px #fff,
+    3px 3px 0px #fff,
+    6px 6px 0px #00000055;
+  }
+  
+  .sq1 {
+    position: absolute;
+    border-width: 2px;
+    border-color: #CEB7FF;
+    border-style: solid;
+    width: 400px;
+    height: 20px;
+    bottom: 120px;
+  }
+  
+  .sq2 {
+    position: absolute;
+    border-width: 2px;
+    border-color: #CEB7FF;
+    border-style: solid;
+    width: 400px;
+    height: 20px;
+    top: 40px;
+  }
+  
+  .Ftxt h2 {
+    position: absolute;
+    font-size: 60px;
+    color: #CEB7FF;
+    top: 190px;
+    left: 7.5%;
+  }
+
+  .back {
+    position: relative;
+    left: 40px;
+    bottom: 1250px;
+  }
+
+  .back img{
+    width: 40px;
+
+  }
+
+  .back p {
+    position: absolute;
+    color: #fff;
+    font-size: 35px;
+    bottom: 5px;
+    left: 40px;
+
+  }
+
+  .pfile {
+    position: absolute;
+    color: #fff;
+    left: 30%;
+    top: 240px;
+    font-size: 25px;
+  }
+
+  .gitImg {
+    position: relative;
+    left: 310px;
+    top: 60px;
+  }
+
+  .slide-in {
+    animation: change 0.8s ease forwards;
+  }
+  
+  @keyframes change {
+    from {
+      transform: translateX(100%);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+}

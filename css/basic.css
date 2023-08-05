@@ -548,7 +548,7 @@ html, body {
 .Ftxt3 {
   position:absolute;
   left: 39.5%;
-  top: 2000px;
+  top: 1960px;
   line-height: 110px;
 }
 
@@ -873,7 +873,7 @@ li {
   left: 23.7%; 
   margin:0 auto; 
   position: absolute;
-  top: 2170px;
+  top: 2140px;
 }
 
 .kind_wrap > .kind_slider {
